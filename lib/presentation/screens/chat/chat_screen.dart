@@ -49,7 +49,7 @@ class _ChatView extends StatelessWidget {
                     itemCount: chatProvider.messageList.length,
                     itemBuilder: (context, index) {
                       final message = chatProvider.messageList[index];
-                      return ( message.sender == Sender.MY ) ? MyMessageBubble() : HerMessageBubble();
+                      return ( message.sender == Sender.MY ) ? MyMessageBubble(message: message,) : HerMessageBubble();
                       // return Text('Indice: $index');
                       // return MyMessageBubble();
 
