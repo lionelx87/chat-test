@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:second_app/domain/entities/message.dart';
-import 'package:second_app/presentation/providers/chat_provider.dart';
-import 'package:second_app/presentation/widgets/chat/her_message_bubble.dart';
-import 'package:second_app/presentation/widgets/chat/my_message_bubble.dart';
-import 'package:second_app/presentation/widgets/shared/message_field_box.dart';
+import 'package:chat_test/domain/entities/message.dart';
+import 'package:chat_test/presentation/providers/chat_provider.dart';
+import 'package:chat_test/presentation/widgets/chat/her_message_bubble.dart';
+import 'package:chat_test/presentation/widgets/chat/my_message_bubble.dart';
+import 'package:chat_test/presentation/widgets/shared/message_field_box.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});

@@ -1,6 +1,6 @@
 {
-    "name": "second_app",
-    "short_name": "second_app",
+    "name": "chat_test",
+    "short_name": "chat_test",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

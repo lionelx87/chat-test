@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:second_app/config/theme/app_theme.dart';
-import 'package:second_app/presentation/providers/chat_provider.dart';
-import 'package:second_app/presentation/screens/chat/chat_screen.dart';
+import 'package:chat_test/config/theme/app_theme.dart';
+import 'package:chat_test/presentation/providers/chat_provider.dart';
+import 'package:chat_test/presentation/screens/chat/chat_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => ChatProvider())
       ],
       child: MaterialApp(
-        title: 'Second App',
+        title: 'Chat Test',
         debugShowCheckedModeBanner: false,
         theme: AppTheme(selectedColor: 1).theme(),
         home: const ChatScreen()

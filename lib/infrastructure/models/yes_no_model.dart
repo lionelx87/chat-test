@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:second_app/domain/entities/message.dart';
+import 'package:chat_test/domain/entities/message.dart';
 
 // YesNoModel yesNoModelFromJson(String str) => YesNoModel.fromJson(json.decode(str));
 
